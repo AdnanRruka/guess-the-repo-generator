@@ -43,6 +43,7 @@ function getRepos(page) {
             watchers_count: i.watchers_count,
             language: i.language,
             created_at: i.created_at,
+            owner: i.owner
           }))
           .forEach((repo) => repos.push(repo));
       }
